@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paymentstyle.css">
+    <title>CHARITY DONATION FORM</title>
+</head>
+<body>
+    <div class="container">
+
+    <form action="" method="get">
+    <h1 class="main_heading">CHARITY DONATION FORM </h1>
+    <hr>
+    <h2>DONOR INFORMATION</h2>
+    <p>Name:* <input type="text" name="name" required></p>
+    <fieldset>
+        <legend>GENDER</legend>
+        <p>
+            Male <input type="radio" name="gender" id="" > Female <input type="radio" name="gender" id=""> Other<input type="radio" name="gender" id="" required>
+        </p>
+    </fieldset>
+    <p>Address:<textarea name="address" id="address" cols="80" rows="5"></textarea></p>
+    <p>Email: <input type="email" name="email" id="email" required></p>
+    <p>Pincode:<input type="number" name="pincode" id="pincode"></p>
+    <hr>
+    <h2>Payment Information</h2>
+    <p>Card type:*
+        <select name="card type" id="card type" required>
+            <option value="">--Select a card type--</option>
+            <option value="Visa">Visa</option>
+            <option value="RuPay">RuPay</option>
+            <option value="mastercard">Mastercard</option>
+        </select>
+    </p>
+    <p>
+        Card number:* <input type="number" name="card number" id="card number" required>
+    </p>
+    <p>
+        Expiration Date:* <input type="date" name="expdate" id="expdate" required>
+    </p>
+    <p>
+        CVV:* <input type="password" name="cvv" id="cvv" required>
+    </p>
+    <p>
+        <input type="submit" value="PAY NOW">
+    </p>
+    </form>
+    </div>
+     
+</body>
+</html>
